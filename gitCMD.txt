@@ -1,0 +1,18 @@
+git教程:https://www.liaoxuefeng.com/wiki/896043488029600/897271968352576
+下面是部分我学习的笔记
+学到的git命令如下,大部分使用的操作笔记记录在了log里,可用git log查看笔记:
+
+git init 初始化仓库
+git add 后加要加入仓库的文件,add的效果是加入暂存区stage/index, 通过commit才会更新仓库
+git diff 后加文件,比较该文件个更改状况
+git commit -m "此处注释" 后加注释,将暂存区里的文件一并提交到仓库,并将注释记录到log
+git rm 后加文件名,移动/删除文件后,要使用该命令更新仓库(由于还是要commit才会起到效果,个人认为应该是给暂存区提供了什么删除指令??不是很懂,但不影响使用和理解)
+git --global user.name "用户名"
+git --global user.email "用户邮箱"
+git reset --hard HEAD^ 回到上个状况,可以理解为log往之前一条记录移动,本质是HEAD指针的位置更新
+git reset --hard HEAD~7 回到7个记录前,即HEAD指针前移7条记录
+git reset --hard cmit_id 回到指定记录,即HEAD指针指到cmit_id的位置
+git log 显示commit的记录
+git reflog 显示所有操作,如果回到了旧文件,又想回到新文件,可以在这里查看id号,然后指定id回去, 即git reset --hard cmit_id 
+git status 查看当前状况
+
