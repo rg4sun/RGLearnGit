@@ -5,4 +5,4 @@ Presented By R.G.
 brabaraaaaaa--some nonsense words
 加入中文字符
 理解暂存区stage/index的作用
-
+git diff只能在更改完后,还没commit之前使用,commit之后使用不会显示更改状况
