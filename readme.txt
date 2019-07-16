@@ -24,5 +24,6 @@ Git tracks changes,now we do a test to see how it tracks changes instead of file
 
 git checkout其实使用版本库里的版本替换工 作区的版本，无论工作区是修改还是删除，都可以从原版本库恢复；但是从来没有被添加到版本库就被删除的文件，是无法checkout恢复的"
 
+2019.7.16 使用GitHub建立了R.G.的第一个仓库RGLearnGit，此行在建完后测试本地修改push到GitHub的成功性
 
 
