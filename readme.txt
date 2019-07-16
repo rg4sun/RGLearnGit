@@ -22,4 +22,7 @@ Git tracks changes,now we do a test to see how it tracks changes instead of file
 
 场景3：已经提交了不合适的修改到版本库时，想要撤销本次提交，参考版本回退一节，不过前提是没有推送到远程库。
 
+git checkout其实使用版本库里的版本替换工 作区的版本，无论工作区是修改还是删除，都可以从原版本库恢复；但是从来没有被添加到版本库就被删除的文件，是无法checkout恢复的"
+
+
 
